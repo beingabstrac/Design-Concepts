@@ -1,0 +1,63 @@
+::-moz-selection {background: #ff7473;}
+
+::selection {background: #ff7473;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: #FFF;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.main {
+  background-color: #3b8686;
+  margin: 1.5em auto;
+  width: 55em;
+  height: 55em;
+  border-radius: 50%;
+  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+
+.sub {
+  background-color: #79bd9a;
+  width: 45em;
+  height: 45em;
+  border-radius: 50%;
+  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+
+.sub2 {
+  background-color: #a8dba8;
+  width: 35em;
+  height: 35em;
+  border-radius: 50%;
+  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+
+.sub3 {
+  background-color: #cff09e;
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+
+.main:hover, .sub:hover, .sub2:hover, .sub3:hover{
+  box-shadow: 0px 0px 40px -14px rgba(0,0,0,0.75);
+  transform: translate(0px, -5px) scale(1.0);
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  top: 5.5em;
+  position: relative;
+}
