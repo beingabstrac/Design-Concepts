@@ -1,0 +1,160 @@
+::-moz-selection {background: yellow;}
+
+::selection {background: yellow;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #012331;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.title {
+	color: #fff;
+	font-size: 3.5em;
+	margin: 0 auto;
+	text-align: center;
+	top: 2.3em;
+  position: relative;
+}
+
+.main {
+	background-color: black;
+	width: 80%;
+	height: 120em;
+	margin: 5em auto;
+	border-radius: 2em;
+	box-shadow: 0px 10px 21px 5px rgba(0,0,0,0.61);
+}
+
+.m1 {
+	width: 30%;
+	height: 20em;
+	float: left;
+	background-image: url(http://wefunction.com/wordpress/wp-content/uploads/2013/10/tumblr_ms9mpnB2o61st5lhmo1_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 2em 0 0 0;
+}
+
+.m2 {
+	width: 70%;
+	height: 20em;
+	float: left;
+	background-color: #012331;
+	border-radius: 0 2em 0 0;
+}
+
+.m3 {
+	width: 70%;
+	height: 20em;
+	float: left;
+	background-image: url(https://todowhatwelove.files.wordpress.com/2015/03/alicja-colon-edit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m4 {
+	width: 30%;
+	height: 20em;
+	float: left;
+	background-image: url(http://65.media.tumblr.com/47fbd8d9ee00940d197b24f073e9f356/tumblr_mopqj9QUeq1st5lhmo1_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m5 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(https://d27v8envyltg3v.cloudfront.net/mio/26357928/13907916085242/large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m6 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(http://66.media.tumblr.com/5e5cda5767708476f23810e3a977d2ab/tumblr_ni0qhiiGlV1tceebuo1_1280.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m7 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(http://67.media.tumblr.com/46230f3fb958daa21c01d53a7fdcb747/tumblr_n6rz3iGDUA1st5lhmo1_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m8 {
+	width: 30%;
+	height: 20em;
+	float: left;
+	background-image: url(http://blog.salesmanago.com/wp-content/uploads/2015/04/Depositphotos_52463231_s.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m9 {
+	width: 70%;
+	height: 20em;
+	float: left;
+	background-image: url(http://joeditzel.com/wp-content/uploads/2015/06/unsplash-feet-image_004.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m10 {
+	width: 70%;
+	height: 20em;
+	float: left;
+	background-image: url(https://premium.wpmudev.org/blog/wp-content/uploads/2016/05/unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m11 {
+	width: 30%;
+	height: 20em;
+	float: left;
+	background-image: url(http://thenewwifestyle.com/wp-content/uploads/2016/01/tell-me-something-good-cats-e1454033481892.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m12 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(https://cdn-images-1.medium.com/max/400/1*EXorOYogh19X_PA08uKODQ.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0 0 0 2em;
+}
+
+.m13 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(https://john.do/wp-content/uploads/2014/12/restart-blog.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.m14 {
+	width: 33.333%;
+	height: 20em;
+	float: left;
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/81572/screenshots/2336417/unsplash-source.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0 0 2em 0;
+}

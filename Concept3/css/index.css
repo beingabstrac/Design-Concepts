@@ -4,7 +4,9 @@
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background: #FFF;
+	background-image: url(http://67.media.tumblr.com/78624123599fc7fcb256840736f6987b/tumblr_n4vbdf0dgm1st5lhmo1_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .rd {
@@ -14,50 +16,66 @@ body {
 }
 
 .main {
-  background-color: #3b8686;
-  margin: 1.5em auto;
-  width: 55em;
-  height: 55em;
-  border-radius: 50%;
-  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+	width: 50em;
+	height: 50em;
+	background-color: #fff;
+	opacity: 0.5;
+	margin: 4em auto;
+	border-radius: 400px 20px 400px 400px;
+	display:flex;
+	align-items:center;
+	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
-.sub {
-  background-color: #79bd9a;
-  width: 45em;
-  height: 45em;
-  border-radius: 50%;
-  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+.main2 {
+	width: 40em;
+	height: 40em;
+	margin: 1em auto;
+	background-color: #fff;
+	opacity: 0.6;
+	display:flex;
+	align-items:center;
+	border-radius: 400px 20px 400px 400px;
+	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
-.sub2 {
-  background-color: #a8dba8;
-  width: 35em;
-  height: 35em;
-  border-radius: 50%;
-  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+.main3 {
+	width: 30em;
+	height: 30em;
+	margin: 1em auto;
+	background-color: #fff;
+	opacity: 0.7;
+	display:flex;
+	align-items:center;
+	border-radius: 400px 20px 400px 400px;
+	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
-.sub3 {
-  background-color: #cff09e;
-  width: 25em;
-  height: 25em;
-  border-radius: 50%;
-  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+.main4 {
+	width: 20em;
+	height: 20em;
+	margin: 1em auto;
+	background-color: #000;
+	display:flex;
+	align-items:center;
+	border-radius: 400px 20px 400px 400px;
+	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
-.main:hover, .sub:hover, .sub2:hover, .sub3:hover{
-  box-shadow: 0px 0px 40px -14px rgba(0,0,0,0.75);
-  transform: translate(0px, -5px) scale(1.0);
+.copyright {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	padding: 1em;
+	border-radius: 20px 20px 20px 20px;
+	vertical-align: text-top;
+	display: flex;
+  align-items: flex-end;
+	justify-content: center;
 }
 
 .title {
-  text-align: center;
-  font-size: 2em;
-  top: 5.5em;
-  position: relative;
+	color: #fff;
+	font-size: 1.5em;
+	margin: 0 auto;
 }
