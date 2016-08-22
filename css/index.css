@@ -4,13 +4,7 @@
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background: repeating-linear-gradient(
-    90deg,
-    #009688,
-    #009688 10px,
-    #8BC34A 10px,
-    #8BC34A 20px
-  );
+	background-color: #ddd;
 }
 
 .rd {
@@ -22,64 +16,5 @@ body {
 h1 {
 	text-align: center;
 	font-size: 5em;
-	color: #fff;
-}
-
-.col-1 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-2 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-1 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-2 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-.col-3 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-4 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-.button {
-	background: repeating-radial-gradient(
-    circle,
-		#009688,
-    #009688 10px,
-    #8BC34A 40px,
-    #8BC34A 20px
-  );
-	color: #fff;
-	cursor: pointer;
-	margin: 4em auto;
-  width: 15em;
-  height: 15em;
-  border-radius: 50%;
-  box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
-  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
-}
-
-.title {
-  text-align: center;
-  font-size: 2em;
-  top: 3.2em;
-  position: relative;
+	color: #000;
 }
