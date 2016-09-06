@@ -61,12 +61,20 @@ body {
 	transform: scale(1.6);
 }
 
-.title {
+.icon {
 	font-weight: 300;
 	font-size: 8em;
 	transform: rotate(-90deg);
 	position: relative;
 	top: 35%;
+	opacity: 0.8;
+}
+
+.title {
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	margin: .5em 0;
 	opacity: 0.8;
 }
 

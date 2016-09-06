@@ -23,6 +23,9 @@ body {
     black 0px,
     black 31px
   );
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
 }
 
 .black {
@@ -37,6 +40,8 @@ body {
     white 0px,
     white 31px
   );
+	position: relative;
+	z-index: 0;
 }
 
 .h1_white {
@@ -58,11 +63,27 @@ body {
 .andw {
 	font-size: 1.9em;
 	position: relative;
-	left: 100px;
+	left: 110px;
 }
 
 .andb {
 	font-size: 1.9em;
 	position: relative;
-	right: 100px;
+	right: 110px;
+}
+
+.title {
+	color: black;
+	font-size: 3em;
+	margin: 0 auto;
+	float: right;
+	padding-right: 0.3em;
+}
+
+.title2 {
+	color: white;
+	font-size: 3em;
+	margin: 0 auto;
+	float: left;
+	padding-top: .15em;
 }
