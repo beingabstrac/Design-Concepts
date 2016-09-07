@@ -18,8 +18,8 @@ body {
 }
 
 .main {
-	width: 60%;
-	height: 30em;
+	width: 85%;
+	height: 35em;
 	margin: 0 auto;
 	background-color: rgb(153, 156, 219);
 	position: relative;
@@ -27,64 +27,31 @@ body {
 }
 
 .main2 {
-	width: 50%;
-	height: 40em;
+	width: 30%;
+	height: 42em;
 	background-color: white;
 	position: relative;
-	bottom: 5em;
+	bottom: 33.5em;
 	left: 5em;
 	margin: 0;
   overflow: scroll;
 }
 
-.button1 {
-	width: 15em;
-	height: 15em;
+.button {
+	width: 10em;
+	height: 10em;
 	border-radius: 50%;
 	background-color: rgb(153, 156, 219);
 	margin: 2em auto;
 	border: 5px solid rgb(85, 86, 169);
 	cursor: pointer;
+  box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
 }
 
-.button2 {
-	width: 15em;
-	height: 15em;
-	border-radius: 50%;
-	background-color: rgb(153, 156, 219);
-	margin: 2em auto;
-	border: 5px solid rgb(85, 86, 169);
-	cursor: pointer;
-}
-
-.button3 {
-	width: 15em;
-	height: 15em;
-	border-radius: 50%;
-	background-color: rgb(153, 156, 219);
-	margin: 2em auto;
-	border: 5px solid rgb(85, 86, 169);
-	cursor: pointer;
-}
-
-.button4 {
-	width: 15em;
-	height: 15em;
-	border-radius: 50%;
-	background-color: rgb(153, 156, 219);
-	margin: 2em auto;
-	border: 5px solid rgb(85, 86, 169);
-	cursor: pointer;
-}
-
-.button5 {
-	width: 15em;
-	height: 15em;
-	border-radius: 50%;
-	background-color: rgb(153, 156, 219);
-	margin: 2em auto;
-	border: 5px solid rgb(85, 86, 169);
-	cursor: pointer;
+.button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -5px) scale(1.0);
 }
 
 h1 {
@@ -97,7 +64,33 @@ h1 {
 .title {
 	text-align: center;
 	color: white;
-	font-size: 2em;
+	font-size: 1.6em;
 	position: relative;
-	top: 2.2em;
+	top: 1.7em;
+}
+
+.block {
+  float: right;
+  width: 40em;
+  height: 25em;
+  margin: 5em 7em 0 0;
+  padding: 0;
+  background-color: black;
+  opacity: 0.4;
+  box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
+  background: repeating-linear-gradient(
+    -45deg,
+    black,
+    black 95px,
+    white 0px,
+    white 96.5px
+  );
+  position: relative;
+  left: 33em;
+}
+
+.dc {
+  margin: 0;
+  padding: 2em 1.4em 0 0;
+  font-size: 5em;
 }
