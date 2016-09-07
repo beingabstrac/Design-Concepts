@@ -1,0 +1,93 @@
+::-moz-selection {background: #30A9DE;}
+
+::selection {background: #30A9DE;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.main {
+	width: 40%;
+	float: left;
+	height: 100vh;
+	position: fixed;
+}
+
+.main2 {
+	width: 60%;
+	float: right;
+	height: auto;
+}
+
+.one	{
+	width: 25%;
+	float: left;
+	height: 100%;
+}
+
+.two	{
+	width: 25%;
+	float: left;
+	height: 100%;
+}
+
+.three	{
+	width: 25%;
+	float: left;
+	height: 100%;
+}
+
+.four	{
+	width: 25%;
+	float: left;
+	height: 100%;
+}
+
+.fa {
+	opacity: 0.8;
+	margin: 0.5em 0;
+	position: relative;
+	left: 30%;
+	transition: all .2s ease-in-out;
+}
+
+.fa:hover {
+	transform: scale(1.6);
+}
+
+.icon {
+	font-weight: 300;
+	font-size: 8em;
+	transform: rotate(-90deg);
+	position: relative;
+	top: 35%;
+	opacity: 0.8;
+}
+
+.title {
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	margin: .5em 0;
+	opacity: 0.8;
+}
+
+.blinking-cursor {
+	color: #30A9DE;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #30A9DE;
+  }
+}

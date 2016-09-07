@@ -1,0 +1,44 @@
+::-moz-selection {background: pink;}
+
+::selection {background: pink;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+h1 {
+	margin: 0.1em 0 0 0.1em;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 15em;
+	color: white;
+}
+
+.one {
+	background-color: #2b90d9;
+}
+
+.max {
+	width: 4em;
+	height: 4em;
+	float: right;
+	transform: rotate(-90deg);
+}
+
+.title {
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.concept8 {
+	color: #88dba3;
+}

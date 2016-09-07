@@ -1,0 +1,89 @@
+::-moz-selection {background: orange;}
+
+::selection {background: orange;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.white {
+	width: 50%;
+	float: left;
+	height: 100vh;
+	background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 30px,
+    black 0px,
+    black 31px
+  );
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.black {
+	width: 50%;
+	float: left;
+	height: 100vh;
+	background-color: black;
+	background: repeating-linear-gradient(
+    -45deg,
+    black,
+    black 30px,
+    white 0px,
+    white 31px
+  );
+	position: relative;
+	z-index: 0;
+}
+
+.h1_white {
+	padding: 30% 30px 0 0;
+	font-size: 8em;
+	color: black;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.h1_black {
+	padding: 31% 0 0 30px;
+	font-size: 8em;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.andw {
+	font-size: 1.9em;
+	position: relative;
+	left: 110px;
+}
+
+.andb {
+	font-size: 1.9em;
+	position: relative;
+	right: 110px;
+}
+
+.title {
+	color: black;
+	font-size: 3em;
+	margin: 0 auto;
+	float: right;
+	padding-right: 0.3em;
+}
+
+.title2 {
+	color: white;
+	font-size: 3em;
+	margin: 0 auto;
+	float: left;
+	padding-top: .15em;
+}

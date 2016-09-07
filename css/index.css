@@ -2,15 +2,13 @@
 
 ::selection {background: #4b026f;}
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background: repeating-linear-gradient(
-    90deg,
-    #009688,
-    #009688 10px,
-    #8BC34A 10px,
-    #8BC34A 20px
-  );
+	background-color: rgb(85, 86, 169);
 }
 
 .rd {
@@ -19,67 +17,80 @@ body {
 	font-size: .1em;
 }
 
-h1 {
-	text-align: center;
-	font-size: 5em;
-	color: #fff;
+.main {
+	width: 85%;
+	height: 35em;
+	margin: 0 auto;
+	background-color: rgb(153, 156, 219);
+	position: relative;
+	transform: translate(0,50%);
 }
 
-.col-1 {
-	width: 25%;
-	height: auto;
-	float: left;
+.main2 {
+	width: 30%;
+	height: 42em;
+	background-color: white;
+	position: relative;
+	bottom: 33.5em;
+	left: 5em;
+	margin: 0;
+  overflow: scroll;
 }
 
-.col-2 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-1 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-2 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-.col-3 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
-
-.col-4 {
-	width: 25%;
-	height: auto;
-	float: left;
-}
 .button {
-	background: repeating-radial-gradient(
-    circle,
-		#009688,
-    #009688 10px,
-    #8BC34A 40px,
-    #8BC34A 20px
-  );
-	color: #fff;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background-color: rgb(153, 156, 219);
+	margin: 2em auto;
+	border: 5px solid rgb(85, 86, 169);
 	cursor: pointer;
-	margin: 4em auto;
-  width: 15em;
-  height: 15em;
-  border-radius: 50%;
   box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
   transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
 }
 
+.button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -5px) scale(1.0);
+}
+
+h1 {
+	float: right;
+	font-size: 3em;
+	color: white;
+	padding: 3.5em 1em 1em 1em;
+}
+
 .title {
-  text-align: center;
-  font-size: 2em;
-  top: 3.2em;
+	text-align: center;
+	color: white;
+	font-size: 1.6em;
+	position: relative;
+	top: 1.7em;
+}
+
+.block {
+  float: right;
+  width: 40em;
+  height: 25em;
+  margin: 5em 7em 0 0;
+  padding: 0;
+  background-color: black;
+  opacity: 0.4;
+  box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
+  background: repeating-linear-gradient(
+    -45deg,
+    black,
+    black 95px,
+    white 0px,
+    white 96.5px
+  );
   position: relative;
+  left: 33em;
+}
+
+.dc {
+  margin: 0;
+  padding: 2em 1.4em 0 0;
+  font-size: 5em;
 }
