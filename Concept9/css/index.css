@@ -30,6 +30,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: .5s;
 }
 
 .two {
@@ -40,6 +41,7 @@ body {
 	padding: 0;
 	padding-left: 0.5em;
 	letter-spacing: .4em;
+	-webkit-animation-delay: 1s;
 }
 
 .three {
@@ -48,6 +50,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 1.5s;
 }
 
 .four {
@@ -56,6 +59,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 2s;
 }
 
 .five {
@@ -64,6 +68,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 2.5s;
 }
 
 .six {
@@ -72,6 +77,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 3s;
 }
 
 .seven {
@@ -80,6 +86,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 3.5s;
 }
 
 .eight {
@@ -88,6 +95,7 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+	-webkit-animation-delay: 4s;
 }
 
 .nine {
@@ -98,4 +106,5 @@ body {
 	padding: 0;
 	padding-left: 0.5em;
 	letter-spacing: .4em;
+	-webkit-animation-delay: 4.5s;
 }
