@@ -1,0 +1,55 @@
+::-moz-selection {background: white;}
+
+::selection {background: white;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    black 10px,
+    black 11px
+  );
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.main {
+	height: auto;
+	width: 70%;
+	border: .2em solid black;
+	margin: 0;
+	padding: 3em 0 1em 0;
+
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: rgb(253, 245, 58);
+	text-align: center;
+	font-size: 6em;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.one {
+	font-size: 7.5em;
+}
+
+.two {
+	font-size: 13em;
+	letter-spacing: -.099em;
+}
+
+.three {
+	font-size: 7.5em;
+}
