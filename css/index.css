@@ -71,26 +71,33 @@ h1 {
 
 .block {
   float: right;
-  width: 40em;
+  width: 42em;
   height: 25em;
   margin: 5em 7em 0 0;
-  padding: 0;
-  background-color: black;
-  opacity: 0.4;
   box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
-  background: repeating-linear-gradient(
-    -45deg,
-    black,
-    black 95px,
-    white 0px,
-    white 96.5px
-  );
+  background-image: url(/Users/rD/Web/DesignConcepts/images/footer_lodyas.png);
   position: relative;
   left: 33em;
+  text-decoration: none;
 }
 
 .dc {
   margin: 0;
   padding: 2em 1.4em 0 0;
   font-size: 5em;
+}
+
+.hide {
+ display: none;
+}
+
+img {
+  background-repeat: no-repeat;
+	background-size: contain;
+  width: 42em;
+  height: 25em;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,0 +1,50 @@
+::-moz-selection {background: grey;}
+
+::selection {background: grey;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url(https://unreasonable.is/wp-content/uploads/2000/04/JeffH_Success-1400x500.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+	color: white;
+}
+
+.main {
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.6;
+}
+
+h1{
+	margin: 0;
+	font-size: 5.5em;
+	text-transform: uppercase;
+	color: white;
+	margin: .1em;
+	letter-spacing: .1em;
+}
+
+.four, .five {
+	font-size: 8em;
+	background-color: lightblue;
+	width: auto;
+	margin: 0;
+	color: black;
+	padding: .1em;
+	display: inline;
+	text-transform: lowercase;
+	font-weight: 100;
+	letter-spacing: 0;
+}
+
+.mar {
+	margin: 5em;
+}

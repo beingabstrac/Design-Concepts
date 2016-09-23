@@ -1,0 +1,110 @@
+::-moz-selection {background: purple;}
+
+::selection {background: purple;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url(https://c2.staticflickr.com/8/7287/16728939980_7859864518_b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+	color: white;
+}
+
+.blackCover {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}
+
+.one {
+	text-align: center;
+	font-size: 5em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: .5s;
+}
+
+.two {
+	text-align: center;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	padding-left: 0.5em;
+	letter-spacing: .4em;
+	-webkit-animation-delay: 1s;
+}
+
+.three {
+	text-align: center;
+	font-size: 5em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 1.5s;
+}
+
+.four {
+	text-align: center;
+	font-size: 6em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 2s;
+}
+
+.five {
+	text-align: center;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 2.5s;
+}
+
+.six {
+	text-align: center;
+	font-size: 5em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 3s;
+}
+
+.seven {
+	text-align: center;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 3.5s;
+}
+
+.eight {
+	text-align: center;
+	font-size: 5em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	-webkit-animation-delay: 4s;
+}
+
+.nine {
+	text-align: center;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	padding-left: 0.5em;
+	letter-spacing: .4em;
+	-webkit-animation-delay: 4.5s;
+}
