@@ -1,0 +1,116 @@
+::-moz-selection {background: lightyellow;}
+
+::selection {background: lightyellow;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url("/Users/rD/Web/DesignConcepts/Concept13/images/1.png");
+	background-size: contain;
+	margin: 0;
+	height: 100vh;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.one {
+	height: 30em;
+	width: 30%;
+	margin: 3em auto 0 auto;
+	background-color: white;
+	position: relative;
+	z-index: 0;
+	border: solid 0.5em #36395F;
+	text-align: center;
+	filter: blur(.5em);
+  color: #666;
+	transition: all 500ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+
+.one:hover {
+  transform: translate(0px, -5px) scale(1.09);
+	position: relative;
+	z-index: 2;
+	filter: blur(0px);
+}
+
+.oneSpan {
+	font-size: 4.5em;
+	color: #36395F;
+	position: relative;
+	top: 25%;
+}
+
+.twoSpan {
+	font-size: 2.5em;
+	color: #36395F;
+	position: relative;
+	top: 5%;
+}
+
+.dc {
+	color: #fdd141;
+}
+
+.two {
+	height: 30em;
+	width: 30%;
+	margin: 0 auto;
+	background-color: white;
+	position: relative;
+	left: 20em;
+	z-index: 1;
+	bottom: 10em;
+	text-align: center;
+	border: solid 0.5em #36395F;
+}
+
+.three {
+	height: 30em;
+	width: 30%;
+	margin: 0 auto;
+	background-color: white;
+	position: relative;
+	right: 20em;
+	z-index: 1;
+	text-align: center;
+	bottom: 41em;
+	border: solid 0.5em #36395F;
+}
+
+.fa {
+	opacity: 0.8;
+	margin: 0.5em 0.5em;
+}
+
+textarea {
+  background: white;
+  border: none;
+  width: 50%;
+  height: 12em;
+  font-size: 1.1em;
+	margin: 0 auto;
+	position: relative;
+	top: 15%;
+	border: solid 0.2em #fdd141;
+  padding: 2em;
+	text-decoration: none;
+	color: #36395F;
+	resize: none;
+  outline: none;
+}
+
+hr {
+	width: 10%;
+	height: .3em;
+	border: 0;
+	color: #fdd141;
+	position: absolute;
+	left: 44.5%;
+	top: 14%;
+	display: block;
+	background-color: #fdd141;
+}
