@@ -1,3 +1,6 @@
-# Concept1 of DesignConcepts.
+Concept1 of DesignConcepts.
+==============================
+
+Result
 -----------
-![Concept1 of DesignConcepts.](/Users/rD/Web/DesignConcepts/images/c1.png)
+<img src="/Users/rD/Web/DesignConcepts/images/c1.png" height="534" width="300"/>
