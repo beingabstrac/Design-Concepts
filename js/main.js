@@ -9,6 +9,10 @@ var concept8 = document.getElementById("concept8");
 var concept9 = document.getElementById("concept9");
 var concept10 = document.getElementById("concept10");
 var concept11 = document.getElementById("concept11");
+var concept12 = document.getElementById("concept12");
+var concept13 = document.getElementById("concept13");
+var concept14 = document.getElementById("concept14");
+var concept15 = document.getElementById("concept15");
 
 concept1.addEventListener("mouseenter", picLinkEnter);
 concept1.addEventListener("mouseleave", picLinkLeave);
@@ -32,6 +36,14 @@ concept10.addEventListener("mouseenter", picLinkEnter);
 concept10.addEventListener("mouseleave", picLinkLeave);
 concept11.addEventListener("mouseenter", picLinkEnter);
 concept11.addEventListener("mouseleave", picLinkLeave);
+concept12.addEventListener("mouseenter", picLinkEnter);
+concept12.addEventListener("mouseleave", picLinkLeave);
+concept13.addEventListener("mouseenter", picLinkEnter);
+concept13.addEventListener("mouseleave", picLinkLeave);
+concept14.addEventListener("mouseenter", picLinkEnter);
+concept14.addEventListener("mouseleave", picLinkLeave);
+concept15.addEventListener("mouseenter", picLinkEnter);
+concept15.addEventListener("mouseleave", picLinkLeave);
 
 function picLinkEnter() {
   var allImages = document.querySelectorAll("img");

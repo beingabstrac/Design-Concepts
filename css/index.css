@@ -96,6 +96,8 @@ img {
 	background-size: contain;
   width: 42em;
   height: 25em;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
 }
 
 a {
