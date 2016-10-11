@@ -1,0 +1,134 @@
+::-moz-selection {background: #090B0D;}
+
+::selection {background: #090B0D;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url("/Users/rD/Web/DesignConcepts/Concept15/images/1.png");
+	padding: 6em 8em 6em 8em;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.wrap {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.card {
+	height: 25em;
+	width: 25em;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+}
+
+.cardOne {
+	background-color: #cbe86b;
+}
+
+.cardTwo {
+	background-color: #F6B352;
+}
+
+.cardThree {
+	background-color: pink;
+}
+
+.cardFour {
+	background-color: #EFDC05;
+}
+
+.cardFive {
+	background-color: #80d4f6;
+}
+
+.cardSix {
+	background-color: #ff5f2e;
+}
+
+.cardSeven {
+	background-color: #6a60a9;
+}
+
+.cardEight {
+	background-color: #D09E88;
+}
+
+.one {
+	height: 20em;
+	width: 20em;
+	background-color: black;
+	opacity: 0.3;
+	border-radius: 50%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.two {
+	height: 15em;
+	width: 15em;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 50%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.three {
+	height: 10em;
+	width: 10em;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.fa {
+	position: relative;
+	top: 25%;
+}
+
+.fa-wifi {
+	color: #cbe86b;
+}
+
+.fa-bluetooth-b {
+	color: #F6B352;
+}
+
+.fa-battery-quarter {
+	color: pink;
+}
+
+.fa-bell {
+	color: #EFDC05;
+}
+
+.fa-cog {
+	color: #80d4f6;
+}
+
+.fa-heart {
+	color: #ff5f2e;
+}
+
+.fa-volume-up {
+	color: #6a60a9;
+}
+
+.fa-bug {
+	color: #D09E88;
+}
