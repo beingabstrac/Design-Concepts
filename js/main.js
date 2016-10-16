@@ -13,6 +13,9 @@ var concept12 = document.getElementById("concept12");
 var concept13 = document.getElementById("concept13");
 var concept14 = document.getElementById("concept14");
 var concept15 = document.getElementById("concept15");
+var concept16 = document.getElementById("concept16");
+var concept17 = document.getElementById("concept17");
+var concept18 = document.getElementById("concept18");
 
 concept1.addEventListener("mouseenter", picLinkEnter);
 concept1.addEventListener("mouseleave", picLinkLeave);
@@ -44,6 +47,12 @@ concept14.addEventListener("mouseenter", picLinkEnter);
 concept14.addEventListener("mouseleave", picLinkLeave);
 concept15.addEventListener("mouseenter", picLinkEnter);
 concept15.addEventListener("mouseleave", picLinkLeave);
+concept16.addEventListener("mouseenter", picLinkEnter);
+concept16.addEventListener("mouseleave", picLinkLeave);
+concept17.addEventListener("mouseenter", picLinkEnter);
+concept17.addEventListener("mouseleave", picLinkLeave);
+concept18.addEventListener("mouseenter", picLinkEnter);
+concept18.addEventListener("mouseleave", picLinkLeave);
 
 function picLinkEnter() {
   var allImages = document.querySelectorAll("img");
