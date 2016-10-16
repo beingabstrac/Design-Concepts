@@ -1,0 +1,14 @@
+::-moz-selection {background: #090B0D;}
+
+::selection {background: #090B0D;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #aaa;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
