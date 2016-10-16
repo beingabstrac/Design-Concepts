@@ -4,11 +4,54 @@
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: #aaa;
 }
 
 .rd {
 	margin: 0;
 	text-align: left;
 	font-size: .1em;
+}
+
+.block {
+	height: 100vh;
+	width: 20%;
+	float: left;
+}
+
+.one {
+	background-color: #6986FB;
+}
+
+.two {
+	background-color: #62A0EA;
+}
+
+.three {
+	background-color: #77D9FD;
+}
+
+.four {
+	background-color: #62E6E8;
+}
+
+.five {
+	background-color: #6BFED7;
+}
+
+.oneP {
+	position: absolute;
+	margin-top: 1em;
+	margin-left: -5em;
+	padding: 1em;
+	color: white;
+	font-size: 7em;
+}
+
+.twoP {
+	position: absolute;
+	margin-top: 3em;
+	margin-left: -3em;
+	padding: 1em;
+	color: white;
+	font-size: 7em;
 }
