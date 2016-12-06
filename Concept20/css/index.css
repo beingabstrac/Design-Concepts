@@ -1,0 +1,57 @@
+::-moz-selection {background: #090B0D;}
+
+::selection {background: #090B0D;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	height: 100vh;
+	background-image: url("/Users/rD/Web/DesignConcepts/Concept20/images/1.gif");
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.one {
+	color: white;
+	margin: 0;
+	padding: .1em;
+	font-size: 10.5em;
+}
+
+.two {
+	color: white;
+	margin: 0;
+	padding: .1em;
+	font-size: 5.7em;
+}
+
+.three {
+	color: white;
+	margin: 0;
+	padding: .1em;
+	font-size: 12.5em;
+}
+
+.four {
+	color: white;
+	margin: 0;
+	padding: .1em;
+	font-size: 9em;
+}
+
+.five {
+	color: white;
+	margin: 0;
+	padding: .1em;
+	font-size: 6.2em;
+}

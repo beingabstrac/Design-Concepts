@@ -1,0 +1,152 @@
+::-moz-selection {background: #1D1F21;}
+
+::selection {background: #1D1F21;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #11233E;
+	margin: 0;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.image {
+	width: 50em;
+	height: 50em;
+	position: absolute;
+	left: 10em;
+	opacity: 0.3;
+	margin: 0;
+}
+
+.block {
+	width: 60%;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #E7454B;
+}
+
+.top {
+	width: 100%;
+	height: 40%;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.name {
+	color: #11233E;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 1em 0 .5em 0;
+}
+
+.password {
+	color: #11233E;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 1em 0 .5em 0;
+}
+
+.email {
+	color: #11233E;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 1em 0 .5em 0;
+}
+
+.name_ {
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	outline: none;
+	resize: none;
+	background: none;
+	border: none;
+	text-align: center;
+	border-bottom: 2px solid #11233E;
+	margin: 0;
+	padding: 0;
+}
+
+.password_ {
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	outline: none;
+	resize: none;
+	background: none;
+	border: none;
+	text-align: center;
+	border-bottom: 2px solid #11233E;
+	margin: 0;
+	padding: 0;
+}
+
+.email_ {
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	outline: none;
+	resize: none;
+	background: none;
+	border: none;
+	text-align: center;
+	border-bottom: 2px solid #11233E;
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.button {
+	width: 10em;
+	height: 3.5em;
+	background-color: #11233E;
+	margin: 1.9em auto;
+	border-radius: 2em;
+	color: #fff;
+}
+
+.submit {
+	font-size: 1.5em;
+	position: relative;
+	top: .7em;
+}
+
+hr {
+	border: .1em solid #11233E;
+	margin: 0;
+}
+
+.head {
+	font-size: 6em;
+	color: #11233E;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+.bottom1 {
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-top: .6em;
+	margin: 0;
+}
+
+.bottom2 {
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-top: 5em;
+	margin: 0;
+}

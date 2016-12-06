@@ -1,0 +1,123 @@
+::-moz-selection {background: #1D1F21;}
+
+::selection {background: #1D1F21;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #DFE3E3;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.block {
+	width: 70em;
+	height: 50em;
+	background-color: #DFE3E3;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	padding: 2em;
+	box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.32);
+	border-radius: 20px;
+}
+
+.one {
+	width: 50%;
+	height: 50em;
+	background-color: #FF642F;
+	float: left;
+	border-radius: 20px 0 0 20px;
+}
+
+.two {
+	width: 50%;
+	height: 50em;
+	background-color: #F2F2F3;
+	float: left;
+	border-radius: 0 20px 20px 0;
+}
+
+.oops {
+	font-size: 10em;
+	color: #F2F2F3;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.quote {
+	font-size: 3em;
+	color: #F2F2F3;
+	text-align: center;
+}
+
+.four1 {
+	font-size: 20em;
+	transform: rotate(-90deg);
+	margin: 0;
+	position: relative;
+	bottom: .47em;
+	color: #FF642F;
+}
+
+.four2 {
+	font-size: 20em;
+	transform: rotate(-90deg);
+	margin: 0;
+	position: relative;
+	bottom: 1.1em;
+	color: #FF642F;
+}
+
+.zero {
+	width: 16em;
+	height: 16em;
+	background-color: #FF642F;
+	border-radius: 0 10em 10em 10em;
+	margin: 0 auto;
+	position: relative;
+	bottom: 3em;
+	opacity: 0.8;
+}
+
+.oh {
+	font-size: 10em;
+	transform: rotate(-90deg);
+	margin: 0;
+	position: relative;
+	top: .1em;
+	color: #F2F2F3;
+}
+
+.button {
+	width: 13em;
+	height: 4em;
+	background-color: #F2F2F3;
+	border-radius: 2em;
+	margin: 5em auto 0 auto;
+}
+
+.home {
+	color: #FF642F;
+	text-align: center;
+	font-size: 2em;
+	padding-top: .6em;
+}
+
+.button2 {
+	width: 13em;
+	height: 4em;
+	background-color: #F2F2F3;
+	border-radius: 2em;
+	margin: 3em auto 0 auto;
+}
+
+.help {
+	color: #FF642F;
+	text-align: center;
+	font-size: 2em;
+	padding-top: .6em;
+}

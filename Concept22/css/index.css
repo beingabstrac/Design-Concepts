@@ -1,0 +1,90 @@
+::-moz-selection {background: #1D1F21;}
+
+::selection {background: #1D1F21;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url(https://source.unsplash.com/category/technology);
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.one {
+	width: 25%;
+	height: 100vh;
+	float: left;
+	background-color: pink;
+	background-image: url(https://source.unsplash.com/category/technology);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.two {
+	width: 25%;
+	height: 100vh;
+	float: left;
+	background-color: lightblue;
+	background-image: url(https://source.unsplash.com/category/people);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.three {
+	width: 25%;
+	height: 100vh;
+	float: left;
+	background-color: lightyellow;
+	background-image: url(https://source.unsplash.com/category/food);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.four {
+	width: 25%;
+	height: 100vh;
+	float: left;
+	background-color: lightgreen;
+	background-image: url(https://source.unsplash.com/category/buildings);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ptechnology {
+	color: white;
+	transform: rotate(-90deg);
+	font-size: 10em;
+	position: relative;
+	top: 30%;
+	opacity: 0.8;
+}
+
+.ppeople {
+	color: white;
+	transform: rotate(-90deg);
+	font-size: 10em;
+	position: relative;
+	top: 30%;
+	opacity: 0.8;
+}
+
+.pfood {
+	color: white;
+	transform: rotate(-90deg);
+	font-size: 10em;
+	position: relative;
+	top: 30%;
+	opacity: 0.8;
+}
+
+.pbuildings {
+	color: white;
+	transform: rotate(-90deg);
+	font-size: 10em;
+	position: relative;
+	top: 30%;
+	opacity: 0.8;
+}
