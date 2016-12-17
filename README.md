@@ -1,8 +1,4 @@
 DesignConcepts.
 ==============================
 
-Result
------------
-<p align="center">
-  <img src="images/c.png"/>
-</p>
+Just some DesignConcepts by me.
