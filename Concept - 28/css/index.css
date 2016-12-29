@@ -1,0 +1,58 @@
+::-moz-selection {background: #DFE3E3;}
+
+::selection {background: #DFE3E3;}
+
+@font-face {
+font-family: 'SIFONN_PRO';
+src:
+    local('SIFONN_PRO'),
+    url('/Users/rD/Library/Fonts/SIFONN_PRO.otf');
+}
+
+@font-face {
+font-family: 'SIFONN_BASIC_OUTLINE';
+src:
+    local('SIFONN_BASIC_OUTLINE'),
+    url('/Users/rD/Library/Fonts/SIFONN_BASIC_OUTLINE.otf');
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+  background-image: url("/Users/rD/Web/DesignConcepts/Concept - 28/images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.container {
+	width: 70%;
+	height: 45em;
+  position: relative;
+  left: 7em;
+  top: 2em;
+  padding: 0 0 0 5em;
+  font-family: 'SIFONN_PRO';
+  margin: 0;
+}
+
+p {
+  font-size: 3em;
+}
+
+.Pone {
+  font-size: 4em;
+  font-family: 'SIFONN_BASIC_OUTLINE';
+}
+
+.Peight {
+  font-size: 2em;
+}
+
+.Pnine {
+  font-size: 1.46em;
+}

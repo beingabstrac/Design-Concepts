@@ -1,0 +1,254 @@
+::-moz-selection {background: #DFE3E3;}
+
+::selection {background: #DFE3E3;}
+
+@font-face {
+font-family: 'SIFONN_PRO';
+src:
+    local('SIFONN_PRO'),
+    url('/Users/rD/Library/Fonts/SIFONN_PRO.otf');
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.container {
+	width: 50%;
+	height: 100vh;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.one {
+  width: 33.3333%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.two {
+  width: 33.3333%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.three {
+  width: 33.3333%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.four {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.five {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.six {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.seven {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.eight {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nine {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ten {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #D61826;
+}
+
+.eleven {
+  width: 25%;
+	height: 33.3333vh;
+  background-color: white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.D {
+  margin: 0;
+  padding: 0;
+  font-size: 30em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  top: 7px;
+}
+
+.E {
+  margin: 0;
+  padding: 0;
+  font-size: 31em;
+  text-align: left;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  top: 7px;
+}
+
+.S {
+  margin: 0;
+  padding: 0;
+  font-size: 32em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  top: 10px;
+}
+
+.T {
+  margin: 0;
+  padding: 0;
+  font-size: 32em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  bottom: 3px;
+}
+
+.R {
+  margin: 0;
+  padding: 0;
+  font-size: 28em;
+  text-align: left;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  right: .1em;
+  bottom: 3px;
+}
+
+.U {
+  margin: 0;
+  padding: 0;
+  font-size: 26.5em;
+  text-align: left;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  right: .17em;
+  bottom: 3px;
+}
+
+.C {
+  margin: 0;
+  padding: 0;
+  font-size: 28em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  right: .2em;
+  bottom: 3px;
+}
+
+.Tt {
+  margin: 0;
+  padding: 0;
+  font-size: 32em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  bottom: .15em;
+}
+
+.I {
+  margin: 0;
+  padding: 0;
+  font-size: 30em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  bottom: 50px;
+}
+
+.O {
+  margin: 0;
+  padding: 0;
+  font-size: 27em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  right: .1em;
+  bottom: 20px;
+}
+
+.N {
+  margin: 0;
+  padding: 0;
+  font-size: 27em;
+  text-align: right;
+  font-family: 'SIFONN_PRO';
+  position: relative;
+  right: .25em;
+  bottom: 15px;
+}
