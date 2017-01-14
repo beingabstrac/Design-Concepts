@@ -1,0 +1,79 @@
+::-moz-selection {background: #DFE3E3;}
+
+::selection {background: #DFE3E3;}
+
+@font-face {
+font-family: 'SIFONN_PRO';
+src:
+    local('SIFONN_PRO'),
+    url('/Users/rD/Library/Fonts/SIFONN_PRO.otf');
+}
+
+@font-face {
+font-family: 'Hack-Regular';
+src:
+    local('Hack-Regular'),
+    url('/Users/rD/Library/Fonts/Hack-Regular.ttf');
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+  background-image: url("/Users/rD/Web/DesignConcepts/Concept - 29/images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.circle {
+  width: 26em;
+  height: 20em;
+  background-color: #F6E4E1;
+  margin: 5em;
+  border-radius: 50%;
+  float: right;
+  padding-top: 10em;
+  padding-left: 4em;
+  font-family: Hack-Regular;
+  box-shadow: 0px 10px 22px -10px rgba(0,0,0,0.69);
+}
+
+.motto {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 1em;
+}
+
+.line1 {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 2em;
+  color: #D10C2C;
+}
+
+.line2 {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 3em;
+  left: 1em;
+  color: green;
+}
+
+.line3 {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 4em;
+  left: 1em;
+  color: blue;
+}
+
+.line4 {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 5em;
+  color: #D10C2C;
+}

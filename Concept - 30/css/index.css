@@ -1,0 +1,94 @@
+::-moz-selection {background: #DFE3E3;}
+
+::selection {background: #DFE3E3;}
+
+@font-face {
+font-family: 'SIFONN_PRO';
+src:
+    local('SIFONN_PRO'),
+    url('/Users/rD/Library/Fonts/SIFONN_PRO.otf');
+}
+
+@font-face {
+font-family: 'Hack-Regular';
+src:
+    local('Hack-Regular'),
+    url('/Users/rD/Library/Fonts/Hack-Regular.ttf');
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+  background-image: url("/Users/rD/Web/DesignConcepts/Concept - 30/images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.block {
+  margin-top: 6em;
+}
+
+.line1 {
+  text-transform: uppercase;
+  font-family: 'SIFONN_PRO';
+  font-size: 7em;
+  margin: 0;
+  margin-top: .4em;
+  margin-right: .5em;
+  text-align: right;
+  text-shadow: 0px 3px 3px rgba(150, 150, 150, 0.69);
+}
+
+.line2 {
+  text-transform: uppercase;
+  font-family: 'SIFONN_PRO';
+  font-size: 7em;
+  margin: 0;
+  color: #F34165;
+  margin-top: .2em;
+  margin-right: .5em;
+  text-align: right;
+  text-shadow: 0px 3px 3px rgba(150, 150, 150, 0.69);
+}
+
+.line3 {
+  font-family: 'Hack-Regular';
+  font-size: 7em;
+  margin: 0;
+  margin-top: .4em;
+  margin-right: .5em;
+  color: white;
+  background-color: black;
+  margin-left: 66%;
+  display:inline-block;
+  padding: .1em;
+}
+
+.line4 {
+  font-family: 'SIFONN_PRO';
+  font-size: 7em;
+  margin: 0;
+  margin-top: .2em;
+  margin-right: .5em;
+  color: #834C86;
+  text-align: right;
+  text-shadow: 0px 3px 3px rgba(150, 150, 150, 0.69);
+}
+
+.line5 {
+  font-family: 'Hack-Regular';
+  font-size: 7em;
+  margin: 0;
+  margin-top: .2em;
+  margin-right: .5em;
+  color: black;
+  background-color: white;
+  margin-left: 66%;
+  display:inline-block;
+  padding: .1em;
+}
