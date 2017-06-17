@@ -1,0 +1,48 @@
+::-moz-selection {background: #DFE3E3;}
+
+::selection {background: #DFE3E3;}
+
+@font-face {
+font-family: 'SIFONN_PRO';
+src:
+    local('SIFONN_PRO'),
+    url('/Users/rD/Library/Fonts/SIFONN_PRO.otf');
+}
+
+@font-face {
+font-family: 'Hack-Regular';
+src:
+    local('Hack-Regular'),
+    url('/Users/rD/Library/Fonts/Hack-Regular.ttf');
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+  background-image: url("/Users/rD/Web/DesignConcepts/Concept - 31/images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+}
+
+.block {
+  width: 46em;
+  height: 30em;
+  margin-top: 3em;
+  margin-right: 1.5em;
+  float: right;
+  padding-top: 22em;
+}
+
+p {
+  font-family: 'SIFONN_PRO';
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+  color: #382422;
+  line-height: .8em;
+}
